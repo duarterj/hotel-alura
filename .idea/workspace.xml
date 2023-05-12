@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab9543ed-b249-4c82-88fc-7b36be36999e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jcalendar_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mchange_commons_java_0_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotel_alura.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/HospedesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/ReservasController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/HospedeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/ReservaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/factory/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelo/Hospede.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelo/Reserva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imagens/Ha-100px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imagens/aH-150px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imagens/aH-40px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imagens/hotel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imagens/icon-buscar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imagens/icon-reservas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imagens/img-hotel-login-.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imagens/lOGO-50PX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imagens/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imagens/menu-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imagens/pessoas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imagens/registro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imagens/reservado.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imagens/reservas-img-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/imagens/tema_escuro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/jars/c3p0-0.9.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/jars/jcalendar-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/jars/mchange-commons-java-0.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/jars/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Buscar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/EditarHospede.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/EditarReserva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/MenuPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/MenuUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/RegistroHospede.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/RegistroReserva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Sucesso.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Ph2mnmSXhxKSO8mcFpDXQ95Bg3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/JARS/mysql-connector-java-8.0.17.jar",
+    "onboarding.tips.debug.path": "C:/Users/duart/eclipse-workspace/hotel_alura/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\duart\eclipse-workspace\hotel_alura\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="hotel_alura" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="hotel_alura" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab9543ed-b249-4c82-88fc-7b36be36999e" name="Changes" comment="" />
+      <created>1683895154805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683895154805</updated>
+    </task>
+    <servers />
+  </component>
+</project>
