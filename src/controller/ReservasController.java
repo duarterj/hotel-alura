@@ -17,13 +17,8 @@ public class ReservasController {
     }
 
     public void salvar(Reserva reserva)  {this.reservaDAO.salvar(reserva);}
-
     public void alterar(Reserva reserva) {this.reservaDAO.alterarReserva(reserva);}
-
     public void excluir(Reserva reserva) {this.reservaDAO.excluirReserva(reserva);}
-
     public List<Reserva> retornarListaReserva() {return this.reservaDAO.listarTodasReservas();}
-
-
     public List<Reserva> retornarListaReservaPesquisado(String pesquisa) {return this.reservaDAO.listarReservaPesquisado(pesquisa);}
 }
