@@ -145,7 +145,6 @@ public class EditarReserva extends JFrame {
 		lblValor.setFont(new Font("Roboto Black", Font.PLAIN, 18));
 		panel.add(lblValor);
 
-		String formaPagamento = tbReservas.getValueAt(tbReservas.getSelectedRow(), 4).toString();
 		txtFormaPagamento = new JComboBox();
 		txtFormaPagamento.setBounds(68, 417, 289, 38);
 		txtFormaPagamento.setBackground(SystemColor.text);

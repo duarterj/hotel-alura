@@ -157,7 +157,7 @@ public class RegistroHospede extends JFrame {
 		txtNacionalidade.setBounds(560, 350, 289, 36);
 		txtNacionalidade.setBackground(SystemColor.text);
 		txtNacionalidade.setFont(new Font("Roboto", Font.PLAIN, 16));
-		txtNacionalidade.setModel(new DefaultComboBoxModel(new String[] {"alemão", "andorrano", "angolano", "antiguano", "saudita", "argelino", "argentino", "armênio", "australiano", "austríaco", "azerbaijano", "bahamense", "bangladês, bangladense", "barbadiano", "bahreinita", "belga", "belizenho", "beninês", "belarusso", "boliviano", "bósnio", "botsuanês", "brasileiro", "bruneíno", "búlgaro", "burkineonse, burkinabé", "burundês", "butanês", "cabo-verdiano", "camerounês", "cambojano", "catariano", "canadense", "cazaque", "chadiano", "chileno", "chinês", "cipriota", "colombiano", "comoriano", "congolês", "congolês", "sul-coreano", "norte-coreano", "costa-marfinense, marfinense", "costa-ricense", "croata", "cubano", "dinamarquês", "djiboutiano", "dominiquense", "egípcio", "salvadorenho", "emiradense, emirático", "equatoriano", "eritreu", "eslovaco", "esloveno", "espanhol", "estadunidense, (norte-)americano", "estoniano", "etíope", "fijiano", "filipino", "finlandês", "francês", "gabonês", "gambiano", "ganês ou ganense", "georgiano", "granadino", "grego", "guatemalteco", "guianês", "guineense", "guineense, bissau-guineense", "equato-guineense", "haitiano", "hondurenho", "húngaro", "iemenita", "cookiano", "marshallês", "salomonense", "indiano", "indonésio", "iraniano", "iraquiano", "irlandês", "islandês", "34", "jamaicano", "japonês", "jordaniano", "kiribatiano", "kuwaitiano", "laosiano", "lesotiano", "letão", "libanês", "liberiano", "líbio", "liechtensteiniano", "lituano", "luxemburguês", "macedônio", "madagascarense", "malásio37", "malawiano", "maldivo", "maliano", "maltês", "marroquino", "mauriciano", "mauritano", "mexicano", "myanmarense", "micronésio", "moçambicano", "moldovo", "monegasco", "mongol", "montenegrino", "namibiano", "nauruano", "nepalês", "nicaraguense", "nigerino", "nigeriano", "niuiano", "norueguês", "neozelandês", "omani", "neerlandês", "palauano", "palestino", "panamenho", "papua, papuásio", "paquistanês", "paraguaio", "peruano", "polonês, polaco", "português", "queniano", "quirguiz", "britânico", "centro-africano", "tcheco", "dominicano", "romeno", "ruandês", "russo", "samoano", "santa-lucense", "são-cristovense", "samarinês", "santomense", "são-vicentino", "seichelense", "senegalês", "sérvio", "singapurense", "sírio", "somaliano, somali", "sri-lankês", "suázi", "sudanês", "sul-sudanês", "sueco", "suíço", "surinamês", "tajique", "tailandês", "tanzaniano", "timorense", "togolês", "tonganês", "trinitário", "tunisiano", "turcomeno", "turco", "tuvaluano", "ucraniano", "ugandês", "uruguaio", "uzbeque", "vanuatuense", "vaticano", "venezuelano", "vietnamita", "zambiano", "zimbabueano"}));
+		txtNacionalidade.setModel(new DefaultComboBoxModel(new String[] {"alemão", "andorrano", "angolano", "antiguano", "saudita", "argelino", "argentino", "armênio", "australiano", "austríaco", "azerbaijano", "bahamense", "bangladês, bangladense", "barbadiano", "bahreinita", "belga", "belizenho", "beninês", "belarusso", "boliviano", "bósnio", "botsuanês", "brasileiro", "bruneíno", "búlgaro", "burkineonse, burkinabé", "burundês", "butanês", "cabo-verdiano", "camerounês", "cambojano", "catariano", "canadense", "cazaque", "chadiano", "chileno", "chinês", "cipriota", "colombiano", "comoriano", "congolês", "congolês", "sul-coreano", "norte-coreano", "costa-marfinense, marfinense", "costa-ricense", "croata", "cubano", "dinamarquês", "djiboutiano", "dominiquense", "egípcio", "salvadorenho", "emiradense, emirático", "equatoriano", "eritreu", "eslovaco", "esloveno", "espanhol", "estadunidense", "estoniano", "etíope", "fijiano", "filipino", "finlandês", "francês", "gabonês", "gambiano", "ganês ou ganense", "georgiano", "granadino", "grego", "guatemalteco", "guianês", "guineense", "guineense, bissau-guineense", "equato-guineense", "haitiano", "hondurenho", "húngaro", "iemenita", "cookiano", "marshallês", "salomonense", "indiano", "indonésio", "iraniano", "iraquiano", "irlandês", "islandês", "34", "jamaicano", "japonês", "jordaniano", "kiribatiano", "kuwaitiano", "laosiano", "lesotiano", "letão", "libanês", "liberiano", "líbio", "liechtensteiniano", "lituano", "luxemburguês", "macedônio", "madagascarense", "malásio", "malawiano", "maldivo", "maliano", "maltês", "marroquino", "mauriciano", "mauritano", "mexicano", "myanmarense", "micronésio", "moçambicano", "moldovo", "monegasco", "mongol", "montenegrino", "namibiano", "nauruano", "nepalês", "nicaraguense", "nigerino", "nigeriano", "niuiano", "norueguês", "neozelandês", "omani", "neerlandês", "palauano", "palestino", "panamenho", "papua, papuásio", "paquistanês", "paraguaio", "peruano", "polonês, polaco", "português", "queniano", "quirguiz", "britânico", "centro-africano", "tcheco", "dominicano", "romeno", "ruandês", "russo", "samoano", "santa-lucense", "são-cristovense", "samarinês", "santomense", "são-vicentino", "seichelense", "senegalês", "sérvio", "singapurense", "sírio", "somaliano, somali", "sri-lankês", "suázi", "sudanês", "sul-sudanês", "sueco", "suíço", "surinamês", "tajique", "tailandês", "tanzaniano", "timorense", "togolês", "tonganês", "trinitário", "tunisiano", "turcomeno", "turco", "tuvaluano", "ucraniano", "ugandês", "uruguaio", "uzbeque", "vanuatuense", "vaticano", "venezuelano", "vietnamita", "zambiano", "zimbabueano"}));
 		contentPane.add(txtNacionalidade);
 
 		JLabel lblNome = new JLabel("NOME");
@@ -256,39 +256,35 @@ public class RegistroHospede extends JFrame {
 		separator_1_2_5.setBackground(new Color(12, 138, 199));
 		contentPane.add(separator_1_2_5);
 
-		JPanel btnsalvar = new JPanel();
-		btnsalvar.setBounds(723, 560, 122, 35);
-		btnsalvar.addMouseListener(new MouseAdapter() {
+		JPanel btnSalvar = new JPanel();
+		btnSalvar.setBounds(723, 560, 122, 35);
+		btnSalvar.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				Sucesso sucesso = new Sucesso();
-				sucesso.setVisible(true);
-				dispose();
+				Boolean nomeEstaVazio = txtNome.getText().isEmpty();
+				Boolean sobrenomeEstaVazio = txtSobrenome.getText().isEmpty();
+
+				if (nomeEstaVazio == false && sobrenomeEstaVazio == false && txtDataN.getDate() != null) {
+					salvarHospede();
+					Sucesso sucesso = new Sucesso();
+					sucesso.setVisible(true);
+					dispose();
+				} else {
+					JOptionPane.showMessageDialog(contentPane, "Preencha os campos obrigatórios!");
+				}
 			}
 		});
-		btnsalvar.setLayout(null);
-		btnsalvar.setBackground(new Color(12, 138, 199));
-		contentPane.add(btnsalvar);
-		btnsalvar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+		btnSalvar.setLayout(null);
+		btnSalvar.setBackground(new Color(12, 138, 199));
+		contentPane.add(btnSalvar);
+		btnSalvar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
 		JLabel labelSalvar = new JLabel("SALVAR");
 		labelSalvar.setHorizontalAlignment(SwingConstants.CENTER);
 		labelSalvar.setForeground(Color.WHITE);
 		labelSalvar.setFont(new Font("Roboto", Font.PLAIN, 18));
 		labelSalvar.setBounds(0, 0, 122, 35);
-		btnsalvar.add(labelSalvar);
-		btnsalvar.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-
-				if (txtNome != null && txtSobrenome != null && txtDataN != null) {
-					salvarHospede();
-				} else {
-					JOptionPane.showMessageDialog(contentPane, "Insira os seus dados no formulário!");
-				}
-
-			}
-		});
+		btnSalvar.add(labelSalvar);
 
 
 		JPanel panel = new JPanel();
@@ -317,6 +313,7 @@ public class RegistroHospede extends JFrame {
 	private void salvarHospede() {
 		String dataNascimento = ((JTextField)txtDataN.getDateEditor().getUiComponent()).getText();
 		int numeroReserva = Integer.parseInt(txtNreserva.getText());
+
 		Hospede novoHospede = new Hospede(txtNome.getText(), txtSobrenome.getText(), java.sql.Date.valueOf(dataNascimento), txtNacionalidade.getSelectedItem().toString(), txtTelefone.getText(), numeroReserva);
 		hospedesController.salvar(novoHospede);
 	}
@@ -326,5 +323,4 @@ public class RegistroHospede extends JFrame {
 		int y = evt.getYOnScreen();
 		this.setLocation(x - xMouse, y - yMouse);
 	}
-											
 }

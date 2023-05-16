@@ -31,6 +31,10 @@ public class Buscar extends JFrame {
 	private HospedesController hospedesController;
 	int xMouse, yMouse;
 
+	public static void main(String[] args) {
+		Buscar buscar = new Buscar();
+		buscar.setVisible(true);
+	}
 	public Buscar() {
 		reservasController = new ReservasController();
 		hospedesController = new HospedesController();
@@ -76,6 +80,7 @@ public class Buscar extends JFrame {
 		modelo.addColumn("Data Check Out");
 		modelo.addColumn("Valor");
 		modelo.addColumn("Forma de Pagamento");
+		preencherDadosTabelaReservas();
 
 		JScrollPane scroll_table = new JScrollPane(tbReservas);
 		panel.addTab("Reservas", new ImageIcon(Buscar.class.getResource("/resources/imagens/reservado.png")), scroll_table, null);
@@ -92,6 +97,7 @@ public class Buscar extends JFrame {
 		modeloHospedes.addColumn("Nacionalidade");
 		modeloHospedes.addColumn("Telefone");
 		modeloHospedes.addColumn("Numero de Reserva");
+		preencherDadosTabelaHospedes();
 
 
 		JScrollPane scroll_tableHuespedes = new JScrollPane(tbHospedes);
@@ -218,12 +224,12 @@ public class Buscar extends JFrame {
 		lblBuscar.setForeground(Color.WHITE);
 		lblBuscar.setFont(new Font("Roboto", Font.PLAIN, 18));
 
-		JPanel btnMostrar = new JPanel();
-		btnMostrar.setLayout(null);
-		btnMostrar.setBackground(new Color(12, 138, 199));
-		btnMostrar.setBounds(503, 508, 122, 35);
-		btnMostrar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-		btnMostrar.addMouseListener(new MouseAdapter() {
+		JPanel btnAtualizar = new JPanel();
+		btnAtualizar.setLayout(null);
+		btnAtualizar.setBackground(new Color(12, 138, 199));
+		btnAtualizar.setBounds(503, 508, 122, 35);
+		btnAtualizar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+		btnAtualizar.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				int qualTabelaFoiSelecionada = panel.getSelectedIndex();
@@ -239,14 +245,14 @@ public class Buscar extends JFrame {
 			}
 		});
 
-		contentPane.add(btnMostrar);
+		contentPane.add(btnAtualizar);
 
-		JLabel lblMostrar = new JLabel("MOSTRAR");
-		lblMostrar.setHorizontalAlignment(SwingConstants.CENTER);
-		lblMostrar.setForeground(Color.WHITE);
-		lblMostrar.setFont(new Font("Roboto", Font.PLAIN, 18));
-		lblMostrar.setBounds(0, 0, 122, 35);
-		btnMostrar.add(lblMostrar);
+		JLabel lblAtualizar = new JLabel("ATUALIZAR");
+		lblAtualizar.setHorizontalAlignment(SwingConstants.CENTER);
+		lblAtualizar.setForeground(Color.WHITE);
+		lblAtualizar.setFont(new Font("Roboto", Font.PLAIN, 18));
+		lblAtualizar.setBounds(0, 0, 122, 35);
+		btnAtualizar.add(lblAtualizar);
 
 		JPanel btnEditar = new JPanel();
 		btnEditar.setLayout(null);
@@ -417,15 +423,14 @@ public class Buscar extends JFrame {
 		buscar.dispose();
 	}
 
-
 	private void headerMousePressed(java.awt.event.MouseEvent evt) {
-	        xMouse = evt.getX();
-	        yMouse = evt.getY();
-	    }
+		xMouse = evt.getX();
+		yMouse = evt.getY();
+	}
 
 	private void headerMouseDragged(java.awt.event.MouseEvent evt) {
-	        int x = evt.getXOnScreen();
-	        int y = evt.getYOnScreen();
-	        this.setLocation(x - xMouse, y - yMouse);
+		int x = evt.getXOnScreen();
+		int y = evt.getYOnScreen();
+		this.setLocation(x - xMouse, y - yMouse);
 	}
 }

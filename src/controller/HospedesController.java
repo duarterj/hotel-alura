@@ -17,9 +17,10 @@ public class HospedesController {
         this.hospedeDAO = new HospedeDAO(connection);
     }
 
-    public List<Hospede> retornarListaHospedes() {return this.hospedeDAO.listarTodosHospedes();}
+
     public void salvar(Hospede hospede)  {this.hospedeDAO.salvar(hospede);}
     public void alterar(Hospede hospede)  {this.hospedeDAO.alterarHospede(hospede);}
     public void excluir(Hospede hospede) {this.hospedeDAO.excluirHospede(hospede);}
+    public List<Hospede> retornarListaHospedes() {return this.hospedeDAO.listarTodosHospedes();}
     public List<Hospede> retornarListaHospedePesquisado(String pesquisa) {return this.hospedeDAO.listarHospedePesquisado(pesquisa);}
 }

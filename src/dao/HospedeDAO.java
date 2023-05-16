@@ -105,7 +105,6 @@ public class HospedeDAO {
             String sql = "DELETE from hospedes WHERE id=?";
 
             try (PreparedStatement pstm = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
-
                 pstm.setInt(1, hospede.getId());
 
                 pstm.executeUpdate();
